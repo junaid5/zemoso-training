@@ -11,7 +11,7 @@ public class FindFile {
         }
         for (String currFile : str) {
             if(fileToBeFound.equals(currFile)){
-                res="file found";
+                res="File found:"+currFile+"\n"+folders.getAbsolutePath();
                 return;
             }
             File NewFolder=new File(folders.getAbsolutePath()+"/"+currFile);
@@ -28,7 +28,7 @@ public class FindFile {
             Scanner in = new Scanner(System.in);
             while(true){
                 res="file not found";
-                System.out.println("ENTER THE NAME OF FILE OR FOLDER");
+                System.out.println("ENTER THE NAME OF THE FILE");
                 str =in.nextLine();
                 this.rFindFile(str,folders);
                 System.out.println(res);
