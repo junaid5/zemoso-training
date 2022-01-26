@@ -3,7 +3,7 @@ import java.io.File;
 import java.util.Scanner;
 
 public class FindFile {
-    String res="file not found";
+    String res="File not found";
     public void rFindFile(String fileToBeFound,File folders){
         String[] str=folders.list();
         if(str==null){
