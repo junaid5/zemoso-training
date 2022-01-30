@@ -1,4 +1,4 @@
-package junaid.assignmnet.data;
+package intro.assignment5.data;
 
 public class First {
     int iVar;

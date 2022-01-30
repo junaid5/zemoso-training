@@ -1,4 +1,6 @@
-package junaid.assignmnet.singleton;
+package intro.assignment5.singleton;
+
+import junaid.assignmnet.singleton.SecondClass;
 
 public class Second {
     String str;

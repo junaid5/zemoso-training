@@ -1,4 +1,4 @@
-package junaid.assignmnet.main;
+package intro.assignment5.main;
 
 import junaid.assignmnet.data.FirstClass;
 import junaid.assignmnet.singleton.SecondClass;
