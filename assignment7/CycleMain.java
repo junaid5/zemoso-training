@@ -22,7 +22,6 @@ class Tricycle extends Cycle{
 
 public class CycleMain {
     public static void main(String[] args) {
-        //upcasting
         Cycle[] c=new Cycle[3];
         c[0]=new Bicycle();
         c[0].balance();
@@ -30,9 +29,5 @@ public class CycleMain {
         c[1].balance();
         c[2]=new Tricycle();
         c[2].balance();
-        //downcasting
-        Cycle cb=new Cycle();
-        Bicycle b=(Bicycle) cb;
-        b.balance();
     }
 }
