@@ -1,14 +1,14 @@
 package junaid.assignmnet.main;
 
-import junaid.assignmnet.data.First;
-import junaid.assignmnet.singleton.Second;
+import junaid.assignmnet.data.FirstClass;
+import junaid.assignmnet.singleton.SecondClass;
 
 public class third {
     public static void main(String[] args) {
-        First f=new First();
+        FirstClass f=new FirstClass();
         f.display();
         f.diplay2();
-        Second obj=Second.ret("hello");
+        SecondClass obj= SecondClass.ret("hello");
         obj.show();
     }
 }

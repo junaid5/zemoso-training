@@ -5,8 +5,8 @@ public class Second {
     Second(String s){
         str=s;
     }
-    public static Second ret(String st){
-        Second obj=new Second(st);
+    public static SecondClass ret(String st){
+        SecondClass obj=new SecondClass(st);
         return obj;
     }
     public void show(){
