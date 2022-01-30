@@ -16,7 +16,7 @@ public class AssignmnetThree {
             System.out.println("host is not reachable");
         }
         long end=System.currentTimeMillis();
-        long time=(end-start)<<1;
-        System.out.println("the median time is:"+time);
+        long time=(end-start)>>1;
+        System.out.println("the median time in milliseconds:"+time);
     }
 }
