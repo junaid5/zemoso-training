@@ -1,4 +1,4 @@
-package intro.java;
+package intro.assignment1;
 import java.io.File;
 import java.util.Scanner;
 

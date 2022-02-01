@@ -1,4 +1,4 @@
-package intro.java;
+package intro.assignment3;
 
 import java.io.IOException;
 import java.net.InetAddress;

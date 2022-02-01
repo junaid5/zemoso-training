@@ -1,4 +1,4 @@
-package intro.java;
+package intro.assignment2;
 
 import java.util.Arrays;
 import java.util.Scanner;

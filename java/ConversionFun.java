@@ -1,4 +1,4 @@
-package intro;
+package intro.java;
 
 public class ConversionFun {
     float f=(float) 5.6;

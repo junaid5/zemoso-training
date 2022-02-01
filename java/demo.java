@@ -1,4 +1,4 @@
-package intro;
+package intro.java;
 
 
 class demo {

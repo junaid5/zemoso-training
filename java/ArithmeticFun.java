@@ -1,4 +1,4 @@
-package intro;
+package intro.java;
 
 public class ArithmeticFun {
     public static void main(String[] args) {
