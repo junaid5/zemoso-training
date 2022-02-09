@@ -1,14 +1,16 @@
-package intro.assignment5.main;
+package assignment5.main;
 
-import junaid.assignmnet.data.FirstClass;
-import junaid.assignmnet.singleton.SecondClass;
+
+import assignment5.data.First;
+import assignment5.singleton.*;
+import assignment5.singleton.Second;
 
 public class third {
     public static void main(String[] args) {
-        FirstClass f=new FirstClass();
+        First f=new First();
         f.display();
         f.diplay2();
-        SecondClass obj= SecondClass.ret("hello");
+        Second obj= Second.ret("hello");
         obj.show();
     }
 }

@@ -1,14 +1,13 @@
-package intro.assignment5.singleton;
+package assignment5.singleton;
 
-import junaid.assignmnet.singleton.SecondClass;
 
 public class Second {
     String str;
     Second(String s){
         str=s;
     }
-    public static SecondClass ret(String st){
-        SecondClass obj=new SecondClass(st);
+    public static Second ret(String st){
+        Second obj=new Second(st);
         return obj;
     }
     public void show(){

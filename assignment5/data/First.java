@@ -1,4 +1,4 @@
-package intro.assignment5.data;
+package assignment5.data;
 
 public class First {
     int iVar;
